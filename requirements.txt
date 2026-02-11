@@ -1,0 +1,38 @@
+#--index-url https://download.pytorch.org/whl/cpu
+#torch==2.9.1
+#torchvision==0.24.1
+#torchaudio==2.9.1
+
+#numpy==2.2.6
+#opencv-python==4.12.0.88
+#Pillow==12.0.0
+#pycozmo==0.8.0
+#transformers==4.57.3
+#ultralytics==8.3.241
+
+#--index-url https://download.pytorch.org/whl/cpu
+#torch>=2.4.0
+#torchvision>=0.19.0
+#torchaudio>=2.4.0
+
+#numpy>=1.26.0,<3.0.0
+#opencv-python==4.9.0.80
+#Pillow>=10.4.0
+#pycozmo>=0.7.0
+#transformers>=4.44.0
+#ultralytics>=8.3.0
+
+
+
+--index-url https://download.pytorch.org/whl/cpu
+
+torch==2.9.1
+torchvision==0.24.1
+numpy==2.2.6
+opencv-python==4.12.0.88
+Pillow==12.0.0
+transformers==4.57.3
+ultralytics==8.3.241
+pycozmo==0.8.0
+# tensorflow==2.20.0    # uncomment only if your code actually imports/uses tensorflow. No need to use it to compute and collect metrics.
+
